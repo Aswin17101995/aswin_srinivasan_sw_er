@@ -76,6 +76,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   head: () => ({
     meta: [
       { charSet: "utf-8" },
+      { name: "google-site-verification", content: "aqAjmeY-EJhEZOxtx0im93RF0Co_CVFEbV-4707Qu_g" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Aswin Srinivasan — Software Engineer & Full-Stack Developer" },
       { name: "description", content: "Hire software engineer from India. Aswin Srinivasan is a results-driven full-stack engineer with 4+ years of experience in Next.js, React, Node.js, Java, and real-time systems." },
