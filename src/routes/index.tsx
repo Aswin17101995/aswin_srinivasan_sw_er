@@ -132,7 +132,7 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": "Person",
           name: "Aswin Srinivasan",
-          url: "/",
+          url: "https://www.adstechnology.online/",
           jobTitle: "Software Engineer",
           description:
             "Full-stack software engineer with 4+ years of experience in Next.js, React, Node.js, Java, and real-time systems.",
@@ -159,18 +159,17 @@ export const Route = createFileRoute("/")({
         type: "application/ld+json",
         children: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "ProfessionalService",
+          "@type": "Service",
           name: "Aswin Srinivasan — Software Engineering Services",
           description:
             "Freelance software engineering services by Aswin Srinivasan: UI development and full-stack development for web applications.",
-          url: "/",
+          url: "https://www.adstechnology.online/",
           areaServed: "Worldwide",
           provider: {
             "@type": "Person",
             name: "Aswin Srinivasan",
             address: { "@type": "PostalAddress", addressCountry: "IN" },
           },
-          priceRange: "$15-$20 / hour",
           hasOfferCatalog: {
             "@type": "OfferCatalog",
             name: "Software Engineering Services",
