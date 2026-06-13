@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const links = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
-  { href: "#experience", label: "Experience" },
+  // { href: "#experience", label: "Experience" },
   { href: "#skills", label: "Skills" },
   { href: "#education", label: "Education" },
   { href: "#pricing", label: "Pricing" },

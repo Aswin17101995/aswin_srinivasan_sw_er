@@ -227,7 +227,7 @@ function Index() {
       <Navbar />
       <Hero />
       <About />
-      <Experience />
+      {/* <Experience /> */}
       <Skills />
       <Education />
       <Pricing />
