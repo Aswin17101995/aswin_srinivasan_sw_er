@@ -91,12 +91,12 @@ export const Route = createFileRoute("/")({
 
       {
         property: "og:image:width",
-        content: "1200",
+        content: "512",
       },
 
       {
         property: "og:image:height",
-        content: "630",
+        content: "512",
       },
       {
         property: "og:image:alt",
