@@ -71,7 +71,7 @@ export const Route = createFileRoute("/")({
 
       {
         property: "og:url",
-        content: "https://yourdomain.com",
+        content: "https://www.adstechnology.online",
       },
 
       {
@@ -86,7 +86,7 @@ export const Route = createFileRoute("/")({
 
       {
         property: "og:image",
-        content: "https://yourdomain.com/og-image.jpg",
+        content: "https://www.adstechnology.online/logo.png",
       },
 
       {
@@ -117,7 +117,7 @@ export const Route = createFileRoute("/")({
       },
       {
         name: "twitter:image",
-        content: "https://yourdomain.com/og-image.jpg",
+        content: "https://www.adstechnology.online/logo.png",
       },
       {
         name: "twitter:image:alt",
